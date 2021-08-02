@@ -1,15 +1,15 @@
-
 public class Task1_4 {
+    public static void main(String[] args) {
         // 定数（アカウント情報）
           // ① 登録されている名前（USER_NAME）とパスワード（USER_PASSWORD）を定数で定義してください。
-          private static final String USER_NAME = "alice";
-          private static final String USER_PASSWORD = "alice123";
+          final String USER_NAME = "alice";
+          final String USER_PASSWORD = "alice123";
       
           // 定数（メッセージ）
-          private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
-          private static final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
-          private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
-          private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
+          final String CONST_MSG_SUCCESS = "ログイン成功です。";
+          final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
+          final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
+          final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
       
           // 補足:
           //   定数は②〜⑤で使い回すために定義しておきます。
@@ -17,7 +17,7 @@ public class Task1_4 {
           //   「ここへ記述」部分へ適当な値を記述しましょう。
           //   ※詳しくはJava2章にて紹介します。
       
-          public static void main(String[] args) {
+          
               // 以下の変数「name」「pass」を使用して、②〜⑤の条件を満たす処理を記述してください。
               // nameとpassはログイン画面からの入力値だと想定してみましょう。
       
@@ -49,8 +49,6 @@ public class Task1_4 {
           } else {
               System.out.println(CONST_MSG_ERROR_INPUT);
           }
-      }
-    
+        }
     }
-    
 
