@@ -4,7 +4,7 @@ public class Task1_2 {
         public static void main(String[] args) {
     
             // ①「JAPAN」、「AMERICA」、「KOREA」を要素の値（初期値）とする配列 countryを作成しなさい。
-        String[] country = new String[] {"JAPAN", "AMERICA", "KOREA"};
+        String[] country = {"JAPAN", "AMERICA", "KOREA"};
 
             // ② ①で作成した配列の要素数を出力してください。
             System.out.println(country.length);
@@ -23,14 +23,15 @@ public class Task1_2 {
             System.out.println(strArray[1]);
     
             /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-             *  [ここへ記述]　
+             *  [ここへ記述]　10,20,30,40,50を要素の値を(初期化)とする、要素数 5 を
+             * intArrayという名前のint型配列を宣言。
              */
             int[] intArray = { 10, 20, 30, 40, 50 };
     
             // ⑥下記の処理について、何をしているのかコメントを記入してください。
-            // [ここへ記述] ⑤で作成した配列の2番目と5番目の要素を出力しなさい。
+            // [ここへ記述] ⑤で作成した配列の2番目と5番目の合計の要素を出力している。
             System.out.println(intArray[1] + intArray[4]);
-    
+           
         }
     }
 
