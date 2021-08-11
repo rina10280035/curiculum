@@ -33,12 +33,19 @@ public class Main {
 
 	        for (int i = 0; i < arr.length; i++) {
 	        	if(i % 2 != 0)  {
-	   		        System.out.println(arr + "は奇数です。");
+	        		isOdd(arr);
+	   		        
 	        	}
-	    	
+	    	     
 	        }
-	}       
-    
+	}
+
+	public static void isOdd(int[] arr) {
+		// TODO 自動生成されたメソッド・スタブ
+		 System.out.println(arr + "は奇数です。");
+    }
+	
+
 
 	//② 関数を定義しなさい。
     //   関数名：getName
