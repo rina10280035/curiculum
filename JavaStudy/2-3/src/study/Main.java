@@ -13,14 +13,9 @@ public class Main {
 
 	        // ③ Taskクラスのインスタンスを生成し、「doTask()」メソッドを呼び出しなさい。
 		
-		Task doTask = new Task();
 		Task task = new Task();
 		task.doTask();
-		int Calculator = doTask.plus(10, 20, 30);
-		System.out.println(Calculator);
 		
-
-
 	    }
 
 	}

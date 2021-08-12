@@ -1,7 +1,10 @@
 package study;
 
 public class Calculator {
-    protected int plus(int a) {
+    
+		// TODO 自動生成されたコンストラクター・スタブ
+	
+	protected int plus(int a) {
         return a + 1;
     }
 
@@ -12,9 +15,5 @@ public class Calculator {
     protected int plus(int a, int b, int c) {
         return a + b + c;
     }
-   
-    
-
-
 
 }
