@@ -1,8 +1,9 @@
 package study;
 //①FruitsConstants.javaをインポートしなさい。
-import constants.FruitsConstans;
+
 //②Fruits.javaをインポートしなさい。
-import fruits.Fruits;
+
+
 /**
 * 本課題では、基本的なJavaの構造と、importについて理解を深めていきましょう。
 *
@@ -11,25 +12,25 @@ import fruits.Fruits;
 *
 */
 
+
 public class Study {
 
-	public static void main(String[] args) {
-		printFruits("レモン",20);
 	
+
+	public static void main(String[] args) {
 		
-		
-	}// TODO 自動生成されたメソッド・スタブ
-		 /* ③ Fruits.javaのprintFruitsメソッドを呼び出しなさい。
+		 Fruits.printFruits();
+	
+}
+
+
+	/* ③ Fruits.javaのprintFruitsメソッドを呼び出しなさい。
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
-	FruitsConstans comstans = new FruitsConstans();
-	Fruits printFruits = new Fruits();
-	
-	public static void printFruits(String fruits, int count) {
-        	        	 
-        	 System.out.println("食べ物は" + fruits);
-       		System.out.println(count +"です"); 
+	static class Fruits{
+		public static void printFruits() {
+			
 		}
-
+	}
 }
