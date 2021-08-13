@@ -1,14 +1,23 @@
 package check;
 
+
 public class Check {
+	
+	
 	
 	public static void main(String[] args) {
 		Check printName = new Check("さとう","りな");
 		printName.printName();
 		
-		 Pet introduce = new Pet("java吉","hoge");
-         RobotPet pet = new RobotPet("R2D2","ルーク");
-       
+		
+		String CHECK_CLASS_JAVA = "java吉";
+		String CHECK_CLASS_HOGE = "hoge";
+		Pet introduce = new Pet(CHECK_CLASS_JAVA,CHECK_CLASS_HOGE);
+		
+        String CHECK_CLASS_R2D2 = "R2D2";
+		String CHECK_CLASS_LUKE = "ルーク";
+		RobotPet pet = new RobotPet(CHECK_CLASS_R2D2,CHECK_CLASS_LUKE);
+         
 		introduce.introduce();
          pet.introduce();
         
