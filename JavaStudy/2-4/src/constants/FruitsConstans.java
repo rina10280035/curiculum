@@ -3,6 +3,7 @@ package constants;
  * フルーツの定数クラス
  */
 public class FruitsConstans {
+
 	// フルーツ定数（種類）
     public static final String FRUITS_APPLE_01 = "りんご";
     public static final String FRUITS_GRAPE_02 = "ぶどう";
@@ -16,7 +17,11 @@ public class FruitsConstans {
     public static final Integer FRUITS_COUNT_45 = 45;
     public static final Integer FRUITS_COUNT_78 = 78;
     public static final Integer FRUITS_COUNT_100 = 100;
+	public static void fruitsConstans() {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+	
 
-}
-
-
+	}
+	
