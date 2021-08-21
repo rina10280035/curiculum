@@ -13,8 +13,7 @@ public class Check {
 
 	
 	public static void main(String[] args) {
-		Check printName = new Check();
-		printName.printName();
+		Check.printName(firstName, lastName);
 		
 		
 		Pet introduce = new Pet(CHECK_CLASS_JAVA,CHECK_CLASS_HOGE);
@@ -26,16 +25,10 @@ public class Check {
 	}
 	
 	
-	private void printName() {
+	private static void printName(String firstName,String lastName) {
 		
-		System.out.println("printNameメソッド → " + getName(firstName,lastName));
+		System.out.println("printNameメソッド → " + (firstName+lastName));
 	}
+}
 
-
-	private String getName(String firstName, String lastName) {
-		// TODO 自動生成されたメソッド・スタブ
-		return firstName+lastName;
-	}
 	
-         }
-
