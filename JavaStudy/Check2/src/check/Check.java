@@ -1,25 +1,21 @@
 package check;
 
+import constants.Constants;
 
 public class Check {
 	
 	private static String firstName ="さとう";
 	private static String lastName = "りな";
 	
-	private static String CHECK_CLASS_JAVA = "java吉";
-	private static String CHECK_CLASS_HOGE = "hoge";
-	private static String CHECK_CLASS_R2D2 = "R2D2";
-	private static String CHECK_CLASS_LUKE = "ルーク";
-
 	
 	public static void main(String[] args) {
 		Check.printName(firstName, lastName);
 		
 		
-		Pet introduce = new Pet(CHECK_CLASS_JAVA,CHECK_CLASS_HOGE);
+		Pet introduce = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
 		introduce.introduce();
         
-		RobotPet pet = new RobotPet(CHECK_CLASS_R2D2,CHECK_CLASS_LUKE);
+		RobotPet pet = new RobotPet(Constants.CHECK_CLASS_R2D2,Constants.CHECK_CLASS_LUKE);
          pet.introduce();
         
 	}
