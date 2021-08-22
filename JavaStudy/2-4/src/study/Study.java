@@ -15,9 +15,8 @@ public class Study {
 
 	public static void main(String[] args) {
 	
-		Fruits.printFruits("レモン",20);
-		FruitsConstans fruitsConstans = new FruitsConstans();
-		FruitsConstans.fruitsConstans();
+		Fruits.printFruits(FruitsConstans.FRUITS_LEMON_04,FruitsConstans.FRUITS_COUNT_20);
+		
 		 
 }
 	/* ③ Fruits.javaのprintFruitsメソッドを呼び出しなさい。
