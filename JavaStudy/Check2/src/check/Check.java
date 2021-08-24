@@ -9,7 +9,7 @@ public class Check {
 	
 	
 	public static void main(String[] args) {
-		Check.printName(firstName, lastName);
+	  printName(firstName, lastName);
 		
 		
 		Pet introduce = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
