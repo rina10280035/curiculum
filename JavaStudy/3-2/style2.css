@@ -26,26 +26,26 @@
     height: 250px;
     background-color: #80bfa8;
   
+} 
+
+.right {
+    height: 250px;
+    width: 250px;
+    float: right;
 }
 
 .right-upper{
     background-color: #bdb400;
-    width: 150px;
     height: 50px;
-  
+    width: 150px;
+    float: left;
 }
 .right-lower{
     background-color: #0093b7;
     width: 150px;
     height: 100px;
+    float: right
 } 
-
-.right-footer {
-        background-color: #8c2727;
-        width: 250px;
-        height: 100px; 
-      
-}
 
 .right-center {
     background-color: #ff9e6b;
@@ -53,6 +53,14 @@
     height: 150px;
     float: right;
 }
+
+.right-footer {
+    background-color: #8c2727;
+    width: 250px;
+    height: 100px; 
+    float: left;
+}
+
 
 .footer {
     width: 400px;
