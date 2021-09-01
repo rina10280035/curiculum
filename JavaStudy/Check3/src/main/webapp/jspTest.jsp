@@ -8,8 +8,8 @@
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div style=" padding-top: 50px;">name</div>
-	<div style="padding-bottom: 50px;">id</div>
+	<div class="name">name</div>
+	<div class="id">id</div>
 	<%@ include file="footer.jsp" %>
 	
 

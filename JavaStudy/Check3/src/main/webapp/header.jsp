@@ -8,13 +8,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div style="display: inline-block; padding: 10px; font-size: 10px;">
+
+	<div class="formatDate"></div>
    <% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
    <%= formatDate %>
-  </div>
-	<div style=" background-color: gray;  color: white; padding: 10px;">login</div>
-	
+  
+	<div class="login">login</div>
+
 </body>
 </html>

@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div style="background-color: gray; color: white; padding: 10px; color: white;">hoge.Inc</div>
-	<label style="display: inline-block;"></label>
+	<div class="hoge.Inc">hoge.Inc</div>
 	
 </body>
 </html>
