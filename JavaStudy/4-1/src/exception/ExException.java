@@ -6,6 +6,7 @@ import org.graalvm.compiler.virtual.phases.ea.PartialEscapeBlockState.Final;
 
 import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
 
+import sun.jvm.hotspot.runtime.StaticBaseConstructor;
 import sun.jvm.hotspot.utilities.IntArray;
 
 /**
@@ -65,12 +66,12 @@ public class ExException {
                 switch (parameter) {
                     case CONST_EXCEPTION_TRIGER_NULL:
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
-                    public final NullPointerException () {
-                    	System.out.println(CONST_MSG_NULLPO);
-                    }
+                    	public static final Nullexception() {
+                    		System.out.println(NullPointerException);
+                    	}
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    NullPointerException();
+                    
                     break;
                     
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
