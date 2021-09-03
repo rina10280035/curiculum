@@ -66,7 +66,7 @@ public class ExException {
                 switch (parameter) {
                     case CONST_EXCEPTION_TRIGER_NULL:
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
-                    	private static void printException() throws NullPointerException {
+                    	private static void printException(null) throws NullPointerException {
                     		throw new NullPointerException(CONST_MSG_NULLPO);
                     	}
                     // 問①は最下部にもあります。
