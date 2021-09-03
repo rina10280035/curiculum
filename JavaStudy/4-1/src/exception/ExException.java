@@ -66,17 +66,17 @@ public class ExException {
                 switch (parameter) {
                     case CONST_EXCEPTION_TRIGER_NULL:
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
-                    	public static final Nullexception() {
-                    		System.out.println(NullPointerException);
+                    	private static void printException() throws NullPointerException {
+                    		throw new NullPointerException(CONST_MSG_NULLPO);
                     	}
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    
+                    	
                     break;
                     
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
-                    	
+                    	 
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
                     // ここへ記述
                     	int[] IntArray =  { 1 , 2 , 3 };
