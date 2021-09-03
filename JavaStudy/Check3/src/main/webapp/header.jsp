@@ -9,14 +9,14 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-	<div class="formatDate"></div>
+	<div class="login">login</div>
+	<div class="formatDate">
    <% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
    <%= formatDate %>
   
-	<div class="login">login</div>
+	</div>
 
 </body>
 </html>
