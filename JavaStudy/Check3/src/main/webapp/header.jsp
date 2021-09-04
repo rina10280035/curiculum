@@ -6,17 +6,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-	<div class="login">login</div>
+	<div class="login">login
 	<div class="formatDate">
    <% Date date = new Date();
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
       String formatDate = sdf.format(date);%>
-   <%= formatDate %>
-  
+   <%= formatDate %> 
 	</div>
-
+    </div>
 </body>
 </html>

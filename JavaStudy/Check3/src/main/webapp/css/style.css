@@ -1,11 +1,22 @@
 @charset "UTF-8";
+
+
 .login {
 	background-color: gray;
 	display: inline-block;
 	padding: 10px;
 	color: white;
-	padding: 10px;
+	
+	
+}
+
+.formatDate {
+	
+	display: inline-block;
 	font-size: 10px;
+	padding: 10px;
+	color: black;
+	
 }
 
 .footer {
