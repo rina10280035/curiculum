@@ -10,10 +10,18 @@
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div class="name">name</div>
-	<div class="id">id</div>
+	<div class=main>
+	<table border="1">
+	<tr>
+	<th>name</th>
+	<td></td>
+	</tr>
+	<tr>
+	<th>id</th>
+	<td></td>
+	</tr>
+	</table>
+	</div>
 	<%@ include file="footer.jsp" %>
-	
-
 </body>
 </html>	
