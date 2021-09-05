@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import org.graalvm.compiler.virtual.phases.ea.PartialEscapeBlockState.Final;
 
+import com.sun.tools.classfile.Annotation.element_value;
 import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
 
 import sun.jvm.hotspot.runtime.StaticBaseConstructor;
@@ -42,7 +43,7 @@ public class ExException {
         int parameter;
         int retryCounter = 0;
         Scanner sc;
-
+        
         do {
 
             System.out.println(CONST_COMMON_INIT_INFO);
@@ -66,12 +67,10 @@ public class ExException {
                 switch (parameter) {
                     case CONST_EXCEPTION_TRIGER_NULL:
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
-                    private static void printException(null) throws NullPointerException {
-                    		throw new NullPointerException(CONST_MSG_NULLPO);
-                    	}
+                   
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    	
+                    throw new NullPointerException(CONST_MSG_NULLPO);
                     break;
                     
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -115,7 +114,10 @@ public class ExException {
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
     // ここへ記述
-
+	@SuppressWarnings("unused")
+	private static void printException() throws NullPointerException {
+		
+	}
     /**
      * 例外処理のメッセージを出力
      *
@@ -125,3 +127,4 @@ public class ExException {
         System.out.println(e);
     }
 }
+	
