@@ -2,14 +2,6 @@ package exception;
 
 import java.util.Scanner;
 
-import org.graalvm.compiler.virtual.phases.ea.PartialEscapeBlockState.Final;
-
-import com.sun.tools.classfile.Annotation.element_value;
-import com.sun.tools.sjavac.comp.dependencies.PublicApiCollector;
-
-import sun.jvm.hotspot.runtime.StaticBaseConstructor;
-import sun.jvm.hotspot.utilities.IntArray;
-
 /**
 * 4-1 : 課題内容
 *
@@ -114,7 +106,6 @@ public class ExException {
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
     // ここへ記述
-	@SuppressWarnings("unused")
 	private static void printException() throws NullPointerException {
 		
 	}
