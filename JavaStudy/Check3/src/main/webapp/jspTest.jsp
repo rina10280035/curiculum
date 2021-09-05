@@ -10,15 +10,16 @@
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div class=main>
-	<table border="1">
+	<div class=main> 
+	<table>
 	<tr>
 	<th>name</th>
-	<td></td>
+	<td><input type="text" name="name" size="30" maxlength="20">
+	</td>
 	</tr>
 	<tr>
 	<th>id</th>
-	<td></td>
+	<td><input type="text" name="name" size="30" maxlength="20"></td>
 	</tr>
 	</table>
 	</div>
