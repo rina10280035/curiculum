@@ -36,6 +36,8 @@ public class ExException {
         int retryCounter = 0;
         Scanner sc;
         
+        
+        
         do {
 
             System.out.println(CONST_COMMON_INIT_INFO);
@@ -62,7 +64,7 @@ public class ExException {
                    
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    throw new NullPointerException(CONST_MSG_NULLPO);
+                    throw new ExException(CONST_MSG_NULLPO);
                     break;
                     
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -106,8 +108,10 @@ public class ExException {
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
     // ここへ記述
+	
+	
 	private static void printException() throws NullPointerException {
-		
+		System.out.println("ヌルポです。");
 	}
     /**
      * 例外処理のメッセージを出力
