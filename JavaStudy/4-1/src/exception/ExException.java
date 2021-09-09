@@ -64,7 +64,7 @@ public class ExException {
                    
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    throw new NullPointerException(CONST_MSG_NULLPO);
+                    	ExException.printException();
                     break;
                     
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -110,7 +110,7 @@ public class ExException {
     // ここへ記述
 	
 	private static void printException() throws NullPointerException {
-		System.out.println("ヌルポです。");
+	    throw new NullPointerException(CONST_MSG_NULLPO);
 	}
     /**
      * 例外処理のメッセージを出力
