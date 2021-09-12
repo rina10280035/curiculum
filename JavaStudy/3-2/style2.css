@@ -25,7 +25,6 @@
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
-    float: left;
   
 } 
 
@@ -34,14 +33,14 @@
     height: 250px;
 }
 
-.right-upper{
+.right-upper-left-up{
     background-color: #bdb400;
     height: 50px;
     width: 150px;
     float: left;
  
 }
-.right-lower{
+.right-upper-left-low{
     background-color: #0093b7;
     width: 150px;
     height: 100px;
@@ -49,7 +48,7 @@
    
 } 
 
-.right-center {
+.right-upper-right{
     background-color: #ff9e6b;
     width: 100px;
     height: 150px;
@@ -57,11 +56,11 @@
  
 }
 
-.right-footer {
+.right-lower {
     background-color: #8c2727;
     width: 250px;
     height: 100px; 
-    float: right;
+    float: left;
 }
 
 
@@ -69,6 +68,5 @@
     width: 400px;
     height: 100px;
     background-color: #d98d30;
-    
-    
+    float: left;
 }
