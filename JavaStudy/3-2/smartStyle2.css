@@ -11,9 +11,6 @@
         clear: both;
     }
     
-    .main {
-        display: flex;
-    }
     
     .header {
      width: 300px;
@@ -31,8 +28,9 @@
     }
 
     .right {
-        height: 250px;
+        height: 200px;
         width: 250px;
+        float: right;
     }
 
     right-upper-left-up{
@@ -99,7 +97,7 @@
         }
         .right {
             height: 250px;
-            width: 250px;
+            width: 150px;
         }
     
         .right-upper-left-up{
@@ -118,7 +116,7 @@
             background-color: #ff9e6b;
             width: 150px;
             height: 150px;
-            float: right;
+            
         }
         .right-footer {
             background-color: #8c2727;
@@ -126,8 +124,6 @@
             height: 100px; 
           
     }
-
-
         .footer {
             width: 150px;
             height: 100px;
