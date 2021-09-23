@@ -28,8 +28,8 @@
     }
 
     .right {
-        height: 200px;
-        width: 250px;
+        height: 250px;
+        width:200px;
         float: right;
     }
 
@@ -87,7 +87,10 @@
          background-color: #141f40;
         
         }
-        
+        .main{
+            width: 150px;
+            height: 500px;
+        }
         
         .left {
             width: 150px;
@@ -103,7 +106,7 @@
         .right-upper-left-up{
             background-color: #bdb400;
             width: 150px;
-            height: 50px;
+            height: 150px;
           
         }
         .right-upper-left-low{
@@ -115,10 +118,10 @@
         .right-upper-right{
             background-color: #ff9e6b;
             width: 150px;
-            height: 150px;
+            height: 100px;
             
         }
-        .right-footer {
+        .right-lower{
             background-color: #8c2727;
             width: 150px;
             height: 100px; 
