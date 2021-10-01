@@ -9,10 +9,6 @@
     clear: both;
 }
 
-.main {
-    display: flex;
-}
-
 .header {
  width: 400px;
  height: 100px;
@@ -31,7 +27,7 @@
 .right{
     width: 250px;
     height: 250px;
-    float: right;
+    float: left;
 }
 
 .right-upper-left-up{

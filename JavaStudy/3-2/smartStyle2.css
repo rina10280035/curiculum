@@ -23,7 +23,7 @@
     .right {
         height: 250px;
         width:200px;
-      
+       float: left;
     }
 
     .right-upper-left-up{
